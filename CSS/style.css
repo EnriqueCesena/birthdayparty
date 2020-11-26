@@ -1,4 +1,15 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("../images/beerbg.jpg");
+    padding: 0;
+    margin: 0;
+}
 
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
 
 h1 , h2{
     font-family: 'Ubuntu', sans-serif;
@@ -8,8 +19,16 @@ h1 , h2{
     line-height: 1;
 }
 
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.75;
     margin-bottom: 28px;
 }
@@ -21,10 +40,35 @@ p {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+
+    background-color: transparent;
 }
 
 aside.right {
     float: right;
+}
+
+.intro {
+    background-color: cadetblue;
+}
+
+.perico-resize{
+    width: 120px;
+    height: 90px;
+}
+
+section {
+    display: inline-block;
+    line-height: 0;
+}
+
+.contact{
+    background-color: chartreuse;
+    width: 100%;
+}
+
+.footer{
+    padding: 0;
+    margin: 20px auto;
 }
